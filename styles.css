@@ -1,5 +1,5 @@
 /*
-  Josh's Custom CSS Reset
+  CSS Reset
   https://www.joshwcomeau.com/css/custom-css-reset/
 */
 *, *::before, *::after {
@@ -21,4 +21,32 @@ input, button, textarea, select {
 }
 p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
+}
+
+:root {
+  --background-color-primary: rgba(203, 220, 182, 1);
+  --background-color-secondary: rgba(58, 88, 20, 1);
+  --text-color-primary: rgba(59, 88, 20, 0.534);
+  --text-color-secondary:   rgba(203, 220, 182, 1);
+  --button-and-link-color: yellow;
+  --test-background-color: rgba(38 208 124 1);
+  font-size: 1.5rem;
+  --font-family: sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  margin: 1rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
 }
