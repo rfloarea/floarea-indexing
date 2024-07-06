@@ -2,12 +2,10 @@
 
 Website repo for floareaindexing.com
 
-## Colors
-- background: HEX #EDE4D9 / RGB (237, 228, 217)
-- text: HEX #261D12
+## TODO
 
-## Sections
-- Homepage
-  - name, bio, testimonial, solidatory statement, membership badges
-- Rates + Services
-- Previous Work (portfolio?)
+- put the solidarity statement in a callout box or something
+- images for books
+- photo of reed?
+- icons for memberships
+- solidify pages needed and names (am I missing anything? does anything need to be renamed?)
