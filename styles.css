@@ -24,11 +24,10 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 :root {
-  --background-color-primary: rgba(203, 220, 182, 1);
-  --background-color-secondary: rgba(58, 88, 20, 1);
-  --text-color-primary: rgba(59, 88, 20, 0.534);
-  --text-color-secondary:   rgba(203, 220, 182, 1);
-  --button-and-link-color: yellow;
+  --background-color-primary: #e9faf2;
+  --background-color-secondary: #ffffff;
+  --text-color-primary: #0b3e25;
+  --text-color-secondary: #57534e;
   --test-background-color: rgba(38 208 124 1);
   font-size: 1.5rem;
   --font-family: sans-serif;
@@ -36,14 +35,13 @@ p, h1, h2, h3, h4, h5, h6 {
 
 body {
   font-family: var(--font-family);
-  margin: 1rem;
+  background-color: var(--background-color-primary);
+  color: var(--text-color-primary);
 }
 
 header {
-  /* display: flex;
-  justify-content: space-between; */
-  /* align-items: center; */
   text-align: center;
+  background-color: var(--background-color-secondary);
 }
 
 nav {
@@ -56,4 +54,8 @@ ul {
   list-style: none;
   gap: 1rem;
   padding: 0;
+}
+
+main {
+  margin: 1rem;
 }
