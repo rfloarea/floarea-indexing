@@ -23,13 +23,44 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
 
+a {
+  color: inherit;
+}
+
+:root {
+  --background-color-primary: rgba(242, 240, 234, 1.0);
+  --background-color-secondary: rgba(211, 211, 211, 0.75);
+  --text-color: rgba(71, 2, 14, 1.0);
+}
+
+body {
+  color: var(--text-color);
+}
+
+.main {
+  background-color: var(--background-color-primary);
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: var(--background-color-secondary);
+}
+
+.header a {
+  text-decoration: none;
 }
 
 .nav-links {
   display: flex;
   list-style: none;
+}
+
+.nav-links li {
+  color: var(--text-color);
+}
+
+.footer {
+  background-color: var(--background-color-secondary);
 }
