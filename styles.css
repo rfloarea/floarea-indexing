@@ -31,10 +31,22 @@ a {
   --background-color-primary: rgba(242, 240, 234, 1.0);
   --background-color-secondary: rgba(211, 211, 211, 0.75);
   --text-color: rgba(71, 2, 14, 1.0);
+  --font-family-reg: noto-serif-reg;
+  --font-family-light: noto-serif-sc-light;
+}
+
+@font-face {
+  font-family: noto-serif-reg;
+  src: url(./font/NotoSerif-Regular.ttf);
+}
+@font-face {
+  font-family: noto-serif-sc-light;
+  src: url(./font/NotoSerif-SemiCondensedLight.ttf);
 }
 
 body {
   color: var(--text-color);
+  font-family: var(--font-family-light);
 }
 
 .main {
@@ -45,6 +57,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem;
   background-color: var(--background-color-secondary);
 }
 
@@ -55,6 +68,7 @@ body {
 .nav-links {
   display: flex;
   list-style: none;
+  gap: 1rem;
 }
 
 .nav-links li {
