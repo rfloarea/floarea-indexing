@@ -29,20 +29,10 @@ p, h1, h2, h3, h4, h5, h6 {
   --background-color-paper: rgba(247, 231, 206, 0.8);
   --text-color-red: rgba(71, 2, 14, 1.0);
   --text-color-green: #253529;
-  --font-family-noto-reg: noto-serif-reg;
-  --font-family-noto-light: noto-serif-sc-light;
   --font-family-benne-reg: benne-reg;
 }
 
-/* Import fonts */
-@font-face {
-  font-family: noto-serif-reg;
-  src: url(./font/NotoSerif-Regular.ttf);
-}
-@font-face {
-  font-family: noto-serif-sc-light;
-  src: url(./font/NotoSerif-SemiCondensedLight.ttf);
-}
+/* Import font */
 @font-face {
   font-family: benne-reg;
   src: url(./font/Benne-Regular.otf);
