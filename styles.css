@@ -23,16 +23,13 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
 
-a {
-  color: inherit;
-}
-
 :root {
   --background-color-primary: rgba(242, 240, 234, 1.0);
   --background-color-secondary: rgba(211, 211, 211, 0.75);
   --text-color: rgba(71, 2, 14, 1.0);
-  --font-family-reg: noto-serif-reg;
-  --font-family-light: noto-serif-sc-light;
+  --font-family-noto-reg: noto-serif-reg;
+  --font-family-noto-light: noto-serif-sc-light;
+  --font-family-benne-reg: benne-reg;
 }
 
 @font-face {
@@ -43,38 +40,80 @@ a {
   font-family: noto-serif-sc-light;
   src: url(./font/NotoSerif-SemiCondensedLight.ttf);
 }
+@font-face {
+  font-family: benne-reg;
+  src: url(./font/Benne-Regular.otf);
+}
 
 body {
   color: var(--text-color);
-  font-family: var(--font-family-light);
+  font-family: var(--font-family-benne-reg);
 }
 
 .main {
   background-color: var(--background-color-primary);
+  padding: 1rem 2rem 1rem 2rem;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 1rem 2rem 1rem 2rem;
   background-color: var(--background-color-secondary);
+}
+
+.header-title {
+  font-weight: lighter;
 }
 
 .header a {
   text-decoration: none;
 }
 
+a {
+  color: inherit;
+}
+
 .nav-links {
   display: flex;
   list-style: none;
-  gap: 1rem;
+  gap: 2.5rem;
 }
 
 .nav-links li {
   color: var(--text-color);
+  font-size: 1.5rem;
+}
+
+.statement {
+  background-color: var(--background-color-secondary);
+  padding: 1rem;
+  border-radius: .75rem;
+  max-width: 85vw;
+  text-align: center;
+  margin: .75rem auto 1.5rem auto;
+}
+
+.main-title {
+  font-size: 2rem;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.testimonial {
+  margin: .75rem auto .75rem auto;
+  max-width: 55vw;
+}
+
+.bio {
+  display: grid;
+  /* grid: max(150px) max(150px) / 1fr 1fr; */
+  /* grid-template-columns: repeat(auto-fill, minmax(200px, .5fr)); */
 }
 
 .footer {
   background-color: var(--background-color-secondary);
+  padding: 1rem 2rem 1rem 2rem;
+  font-size: 1.5rem;
 }
