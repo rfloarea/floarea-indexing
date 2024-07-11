@@ -24,9 +24,10 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 :root {
-  --background-color-primary: rgba(242, 240, 234, 1.0);
-  --background-color-secondary: rgba(211, 211, 211, 0.75);
-  --text-color: rgba(71, 2, 14, 1.0);
+  --background-color-grey: rgba(242, 240, 234, 0.75);
+  --background-color-paper: rgba(247, 231, 206, 0.8);
+  --text-color-red: rgba(71, 2, 14, 1.0);
+  --text-color-green: #253529;
   --font-family-noto-reg: noto-serif-reg;
   --font-family-noto-light: noto-serif-sc-light;
   --font-family-benne-reg: benne-reg;
@@ -46,12 +47,12 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  color: var(--text-color);
+  color: var(--text-color-green);
   font-family: var(--font-family-benne-reg);
 }
 
 .main {
-  background-color: var(--background-color-primary);
+  background-color: var(--background-color-paper);
   padding: 1rem 2rem 1rem 2rem;
 }
 
@@ -61,7 +62,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem 1rem 2rem;
-  background-color: var(--background-color-secondary);
+  background-color: var(--background-color-grey);
 }
 
 .header-title {
@@ -76,6 +77,10 @@ a {
   color: inherit;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 .nav-links {
   display: flex;
   list-style: none;
@@ -84,7 +89,7 @@ a {
 }
 
 .nav-links li {
-  color: var(--text-color);
+  color: var(--text-color-green);
   font-size: 1.5rem;
 }
 
@@ -104,7 +109,6 @@ a {
 
 .statement {
   font-size: 1.125rem;
-  background-color: var(--background-color-secondary);
   padding: 1rem;
   border-radius: .75rem;
   max-width: 85vw;
@@ -147,7 +151,7 @@ a {
 }
 
 .footer {
-  background-color: var(--background-color-secondary);
+  background-color: var(--background-color-grey);
   padding: 1rem 2rem 1rem 2rem;
   font-size: 1.5rem;
 }
