@@ -23,6 +23,7 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
 
+/* Custom variables */
 :root {
   --background-color-grey: rgba(242, 240, 234, 0.75);
   --background-color-paper: rgba(247, 231, 206, 0.8);
@@ -33,6 +34,7 @@ p, h1, h2, h3, h4, h5, h6 {
   --font-family-benne-reg: benne-reg;
 }
 
+/* Import fonts */
 @font-face {
   font-family: noto-serif-reg;
   src: url(./font/NotoSerif-Regular.ttf);
@@ -46,6 +48,7 @@ p, h1, h2, h3, h4, h5, h6 {
   src: url(./font/Benne-Regular.otf);
 }
 
+/* Custom styles */
 body {
   color: var(--text-color-green);
   font-family: var(--font-family-benne-reg);
@@ -91,20 +94,6 @@ a:hover {
 .nav-links li {
   color: var(--text-color-green);
   font-size: 1.5rem;
-}
-
-/* Small screens */
-@media all and (max-width: 500px) {
-  .header {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .nav-links {
-    flex-direction: column;
-    align-items: center;
-    gap: 0.75rem;
-  }
 }
 
 .statement {
@@ -154,4 +143,18 @@ a:hover {
   background-color: var(--background-color-grey);
   padding: 1rem 2rem 1rem 2rem;
   font-size: 1.5rem;
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+  }
 }
