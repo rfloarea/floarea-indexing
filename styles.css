@@ -135,6 +135,15 @@ a:hover {
   font-size: 1.5rem;
 }
 
+.project-list {
+  list-style: none;
+  font-size: 1.25rem;
+}
+
+.project-list li {
+  margin-bottom: 1rem;
+}
+
 /* Small screens */
 @media all and (max-width: 500px) {
   .header {
