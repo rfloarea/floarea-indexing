@@ -95,7 +95,7 @@ a:hover {
   margin: .75rem auto 1.5rem auto;
 }
 
-.main-title {
+.page-title {
   font-size: 2rem;
   font-weight: lighter;
   text-align: center;
@@ -108,7 +108,7 @@ a:hover {
   text-align: center;
 }
 
-.bio {
+.info {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -118,13 +118,13 @@ a:hover {
   gap: 3rem;
 }
 
-.bio-image {
+.info-image {
   max-width: 30rem;
   height: 30rem;
   border-radius: 1rem;
 }
 
-.bio-text {
+.info-text {
   font-size: 1.25rem;
   max-width: 30rem;
 }
