@@ -1,5 +1,5 @@
 /*
-  CSS Reset
+  Reset
   https://www.joshwcomeau.com/css/custom-css-reset/
 */
 *, *::before, *::after {
@@ -23,9 +23,8 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
 
-/* Custom Variables */
+/* Variables */
 :root {
-  --background-color-grey: rgba(242, 240, 234, 0.5);
   --background-color-paper: rgba(247, 231, 206, 0.5);
   --background-color-almond: rgba(239, 222, 205, 0.1);
   --text-color-red: rgba(71, 2, 14, 1.0);
@@ -39,9 +38,7 @@ p, h1, h2, h3, h4, h5, h6 {
   src: url(./font/Benne-Regular.otf);
 }
 
-/* Global Custom Styles 
-TODO: label sections
-*/
+/* Global Styles */
 body {
   color: var(--text-color-green);
   font-family: var(--font-family-benne-reg);
@@ -51,11 +48,33 @@ p {
   margin-bottom: 1rem;
 }
 
+a {
+  color: inherit;
+}
+
 .main {
   background-color: var(--background-color-paper);
   padding: 1rem 2rem 1rem 2rem;
 }
 
+.page-title {
+  font-size: 2rem;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.info-image {
+  max-width: 30rem;
+  height: 30rem;
+  border-radius: 1rem;
+}
+
+.info-text {
+  font-size: 1.25rem;
+  max-width: 40rem;
+}
+
+/* Header Styles */
 .header {
   display: flex;
   flex-flow: row wrap;
@@ -71,10 +90,6 @@ p {
 
 .header a {
   text-decoration: none;
-}
-
-a {
-  color: inherit;
 }
 
 a:hover {
@@ -93,28 +108,6 @@ a:hover {
   font-size: 1.5rem;
 }
 
-.statement {
-  font-size: 1.125rem;
-  padding: 1rem;
-  border-radius: .75rem;
-  max-width: 85vw;
-  text-align: center;
-  margin: .75rem auto 1.5rem auto;
-}
-
-.page-title {
-  font-size: 2rem;
-  font-weight: lighter;
-  text-align: center;
-}
-
-.testimonial {
-  font-size: 1.125rem;
-  margin: .75rem auto .75rem auto;
-  max-width: 75vw;
-  text-align: center;
-}
-
 .info {
   display: flex;
   justify-content: center;
@@ -125,6 +118,24 @@ a:hover {
   gap: 3rem;
 }
 
+/* Homepage Styles */
+.statement {
+  font-size: 1.125rem;
+  padding: 1rem;
+  border-radius: .75rem;
+  max-width: 85vw;
+  text-align: center;
+  margin: .75rem auto 1.5rem auto;
+}
+
+.testimonial {
+  font-size: 1.125rem;
+  margin: .75rem auto .75rem auto;
+  max-width: 75vw;
+  text-align: center;
+}
+
+/* Rates Page Styles */
 .rates-page {
   display: flex;
   align-items: baseline;
@@ -134,24 +145,14 @@ a:hover {
   margin-bottom: 1rem;
 }
 
-.info-image {
-  max-width: 30rem;
-  height: 30rem;
-  border-radius: 1rem;
-}
-
-.info-text {
-  font-size: 1.25rem;
-  max-width: 40rem;
-}
-
+/* Footer Styles */
 .footer {
   background-color: var(--background-color-almond);
   padding: 1rem 2rem 1rem 2rem;
   font-size: 1.5rem;
 }
 
-/* Portfolio Grid */
+/* Portfolio Grid Styles*/
 .project-list {
   display: grid;
   justify-items: center;
@@ -175,7 +176,7 @@ a:hover {
   border-radius: 1rem;
 }
 
-/* Small screens */
+/* For Small Screens */
 @media all and (max-width: 500px) {
   .header {
     flex-direction: column;
