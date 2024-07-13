@@ -23,7 +23,7 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
 
-/* Custom variables */
+/* Custom Variables */
 :root {
   --background-color-grey: rgba(242, 240, 234, 0.5);
   --background-color-paper: rgba(247, 231, 206, 0.5);
@@ -33,13 +33,15 @@ p, h1, h2, h3, h4, h5, h6 {
   --font-family-benne-reg: benne-reg;
 }
 
-/* Import font */
+/* Import Font */
 @font-face {
   font-family: benne-reg;
   src: url(./font/Benne-Regular.otf);
 }
 
-/* Custom styles */
+/* Global Custom Styles 
+TODO: label sections
+*/
 body {
   color: var(--text-color-green);
   font-family: var(--font-family-benne-reg);
