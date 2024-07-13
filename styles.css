@@ -26,9 +26,11 @@ p, h1, h2, h3, h4, h5, h6 {
 /* Variables */
 :root {
   --background-color-paper: rgba(247, 231, 206, 0.5);
-  --background-color-almond: rgba(239, 222, 205, 0.1);
+  --background-color-test: rgba(247, 231, 206, 0.5);
+  /* --background-color-almond: rgba(239, 222, 205, 0.1); */
   --text-color-red: rgba(71, 2, 14, 1.0);
   --text-color-green: rgba(37, 53, 41, 1.0);
+  --text-color-testgreen: #233728;
   --font-family-benne-reg: benne-reg;
 }
 
@@ -40,7 +42,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* Global Styles */
 body {
-  color: var(--text-color-green);
+  color: var(--text-color-testgreen);
   font-family: var(--font-family-benne-reg);
 }
 
@@ -80,8 +82,8 @@ a {
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem 1rem 2rem;
-  background-color: var(--background-color-almond);
+  padding: 1rem 3rem 1rem 3rem;
+  background-color: var(--background-color-test);
 }
 
 .header-title {
@@ -128,7 +130,7 @@ a:hover {
 
 /* Footer Styles */
 .footer {
-  background-color: var(--background-color-almond);
+  background-color: var(--background-color-test);
   padding: 1rem 2rem 1rem 2rem;
   font-size: 1.5rem;
 }
