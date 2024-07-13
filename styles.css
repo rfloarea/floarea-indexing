@@ -25,10 +25,11 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* Custom variables */
 :root {
-  --background-color-grey: rgba(242, 240, 234, 0.75);
-  --background-color-paper: rgba(247, 231, 206, 0.8);
+  --background-color-grey: rgba(242, 240, 234, 0.5);
+  --background-color-paper: rgba(247, 231, 206, 0.5);
+  --background-color-almond: rgba(239, 222, 205, 0.1);
   --text-color-red: rgba(71, 2, 14, 1.0);
-  --text-color-green: #253529;
+  --text-color-green: rgba(37, 53, 41, 1.0);
   --font-family-benne-reg: benne-reg;
 }
 
@@ -44,6 +45,10 @@ body {
   font-family: var(--font-family-benne-reg);
 }
 
+p {
+  margin-bottom: 1rem;
+}
+
 .main {
   background-color: var(--background-color-paper);
   padding: 1rem 2rem 1rem 2rem;
@@ -55,7 +60,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem 1rem 2rem;
-  background-color: var(--background-color-grey);
+  background-color: var(--background-color-almond);
 }
 
 .header-title {
@@ -130,7 +135,7 @@ a:hover {
 }
 
 .footer {
-  background-color: var(--background-color-grey);
+  background-color: var(--background-color-almond);
   padding: 1rem 2rem 1rem 2rem;
   font-size: 1.5rem;
 }
