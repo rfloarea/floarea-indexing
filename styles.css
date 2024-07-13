@@ -119,30 +119,11 @@ a:hover {
 }
 
 /* Homepage Styles */
-.statement {
-  font-size: 1.125rem;
-  padding: 1rem;
-  border-radius: .75rem;
-  max-width: 85vw;
-  text-align: center;
-  margin: .75rem auto 1.5rem auto;
-}
-
 .testimonial {
   font-size: 1.125rem;
   margin: .75rem auto .75rem auto;
   max-width: 75vw;
   text-align: center;
-}
-
-/* Rates Page Styles */
-.rates-page {
-  display: flex;
-  align-items: baseline;
-}
-
-.rates-page .page-title{
-  margin-bottom: 1rem;
 }
 
 /* Footer Styles */
@@ -154,6 +135,16 @@ a:hover {
 
 .footer p {
   margin-bottom: 0;
+}
+
+/* Rates Page Styles */
+.rates-page {
+  display: flex;
+  align-items: baseline;
+}
+
+.rates-page .page-title{
+  margin-bottom: 1rem;
 }
 
 /* Portfolio Grid Styles*/
@@ -178,6 +169,11 @@ a:hover {
   width: 250px;
   height: auto;
   border-radius: 1rem;
+}
+
+/* PACBI Styles */
+.pacbi-list {
+  margin-bottom: 1rem;
 }
 
 /* For Small Screens */
