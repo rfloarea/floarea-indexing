@@ -162,18 +162,10 @@ asi w 300 x h 201 px
 */
 
 /* Rates Page Styles */
-/* .rates-page {
-  display: flex;
-  align-items: baseline;
-} */
-
-.rates, .contact {
+.rates,
+.contact {
   max-width: 50rem;
 }
-
-/* .rates-page .page-title{
-  margin-bottom: 1rem;
-} */
 
 /* Portfolio Grid Styles*/
 .project-list {
@@ -202,6 +194,13 @@ asi w 300 x h 201 px
 /* PACBI Styles */
 .pacbi-list {
   margin-bottom: 1rem;
+}
+
+.pal-flag {
+  width: 100%;
+  height: 220px;
+  background-image: url('./images/pal-flag.jpg');
+  background-position: center center;
 }
 
 /* For Small Screens */
