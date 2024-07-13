@@ -162,14 +162,18 @@ asi w 300 x h 201 px
 */
 
 /* Rates Page Styles */
-.rates-page {
+/* .rates-page {
   display: flex;
   align-items: baseline;
+} */
+
+.rates, .contact {
+  max-width: 50rem;
 }
 
-.rates-page .page-title{
+/* .rates-page .page-title{
   margin-bottom: 1rem;
-}
+} */
 
 /* Portfolio Grid Styles*/
 .project-list {
