@@ -149,6 +149,12 @@ a:hover {
   margin-bottom: 1rem;
 }
 
+/* hr {
+  width: 50%;
+  margin-left: 10rem;
+  margin-bottom: 1rem;
+} */
+
 /* Small screens */
 @media all and (max-width: 500px) {
   .header {
