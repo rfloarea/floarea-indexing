@@ -130,14 +130,36 @@ a:hover {
 
 /* Footer Styles */
 .footer {
-  background-color: var(--background-color-test);
+  /* background-color: var(--background-color-test); */
+  background-color: white;
   padding: 1rem 2rem 1rem 2rem;
   font-size: 1.5rem;
 }
 
 .footer p {
+  margin-left: 1rem;
   margin-bottom: 0;
 }
+
+.footer-items-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+  padding: 1rem;
+}
+
+/* 
+isc w 650 x h 186 px
+union w 200 x h 200 px
+asi w 300 x h 201 px
+*/
 
 /* Rates Page Styles */
 .rates-page {
