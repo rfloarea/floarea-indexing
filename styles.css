@@ -123,6 +123,15 @@ a:hover {
   gap: 3rem;
 }
 
+.rates-page {
+  display: flex;
+  align-items: baseline;
+}
+
+.rates-page .page-title{
+  margin-bottom: 1rem;
+}
+
 .info-image {
   max-width: 30rem;
   height: 30rem;
@@ -148,12 +157,6 @@ a:hover {
 .project-list li {
   margin-bottom: 1rem;
 }
-
-/* hr {
-  width: 50%;
-  margin-left: 10rem;
-  margin-bottom: 1rem;
-} */
 
 /* Small screens */
 @media all and (max-width: 500px) {
