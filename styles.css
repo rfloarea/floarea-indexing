@@ -26,11 +26,8 @@ p, h1, h2, h3, h4, h5, h6 {
 /* Variables */
 :root {
   --background-color-paper: rgba(247, 231, 206, 0.5);
-  --background-color-test: rgba(247, 231, 206, 0.5);
-  /* --background-color-almond: rgba(239, 222, 205, 0.1); */
   --text-color-red: rgba(71, 2, 14, 1.0);
-  --text-color-green: rgba(37, 53, 41, 1.0);
-  --text-color-testgreen: #233728;
+  --text-color-green: #233728;
   --font-family-benne-reg: benne-reg;
 }
 
@@ -42,7 +39,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* Global Styles */
 body {
-  color: var(--text-color-testgreen);
+  color: var(--text-color-green);
   font-family: var(--font-family-benne-reg);
 }
 
@@ -83,7 +80,7 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 3rem 1rem 3rem;
-  background-color: var(--background-color-test);
+  background-color: var(--background-color-paper);
 }
 
 .header-title {
@@ -96,6 +93,7 @@ a {
 
 a:hover {
   text-decoration: underline;
+  color: var(--text-color-red);
 }
 
 .nav-links {
@@ -130,7 +128,6 @@ a:hover {
 
 /* Footer Styles */
 .footer {
-  /* background-color: var(--background-color-test); */
   background-color: white;
   padding: 1rem 2rem 1rem 2rem;
   font-size: 1.5rem;
@@ -155,40 +152,13 @@ a:hover {
   padding: 1rem;
 }
 
-/* 
-isc w 650 x h 186 px
-union w 200 x h 200 px
-asi w 300 x h 201 px
-*/
-
 /* Rates Page Styles */
 .rates,
 .contact {
   max-width: 50rem;
 }
 
-/* Portfolio Grid Styles (NOT USED) */
-/* .project-list {
-  display: grid;
-  justify-items: start;
-  justify-content: start;
-  column-gap: 1rem;
-  grid-template-columns: minmax(80px, 200px) minmax(80px, 500px);
-  grid-template-rows: 1fr 1fr 1fr;
-  list-style: none;
-  font-size: 1.25rem;
-  margin: 1rem 0 1rem 0;
-}
-
-.book-citation,
-.book-cover{
-  place-self: center;
-}
-
-.book-cover img {
-  width: 100px;
-  height: auto;
-} */
+/* Portfolio Styles */
 .project-list-container {
   margin: 1rem 0 3rem 1rem;
 }
