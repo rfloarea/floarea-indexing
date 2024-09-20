@@ -153,8 +153,10 @@ a:hover {
 }
 
 /* Rates Page Styles */
-.rates,
-.contact {
+.indexing,
+.contact,
+.proofreading,
+.copyediting {
   max-width: 50rem;
 }
 
