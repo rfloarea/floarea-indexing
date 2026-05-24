@@ -131,19 +131,16 @@ a:hover {
   background-color: white;
   padding: 1rem 2rem 1rem 2rem;
   font-size: 1.5rem;
-}
-
-.footer p {
-  margin-left: 1rem;
-  margin-bottom: 0;
-}
-
-.footer-items-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+}
+
+.footer p {
+  margin-left: 1rem;
+  margin-bottom: 0;
 }
 
 .logo {
